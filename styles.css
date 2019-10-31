@@ -184,7 +184,7 @@ a {
     background-size: cover;
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
 }
 
 .text-box1 {
@@ -266,24 +266,28 @@ a {
 .input input {
     padding: 5%;
     margin: 5%;
+    border-radius: 6px;
 }
 
 .info-box .input {
     box-sizing: border-box;
     border-radius: 4px;
-    border: 2px solid whitesmoke;
-    background-color: black;
+    border: px solid whitesmoke;
+    background-color:transparent;
+    box-shadow: 10px white;
+    border-radius: 6px;
 }
 
 .info-box .input label {
     width: 100%; 
 	height: 100%;
-	border-bottom: 2px solid #b0bec5;
-	background: transparent;
-	left: 0px;
-	bottom: 0px;
-	pointer-events: none; 
+    border-bottom: 2px solid dimgrey;
+    color: dimgrey;
+    background: transparent;
+    position: relative;
 }
+
+
 
 #contact {
     background-color: whitesmoke;
