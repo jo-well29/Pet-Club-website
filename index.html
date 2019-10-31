@@ -20,7 +20,7 @@
     <div class="logo">
         <h1 class="pet-club">Pet Club</h1>
         <p>NY</p>
-        <img class="header-logo" src="images/logo.png" alt="pet club logo dog">
+        <img src="images/dog-seating.png" id="header-logo" onmouseover="newPicture()" onmouseout="oldPicture()">
     </div>
 
 
@@ -34,7 +34,7 @@
             <div id="myModal" class="modal">
                     <div class="modal-content">
                         <span class="close">&times;</span>
-                        <p id="modal-contact">Email: email123@gmail <br/>Phone: (123)523-2345 <br/>Twitter: @twitterlessJoe</p>
+                        <p id="modal-contact">Email: email123@gmail <br/>Phone: (123)523-2345 <br/>Twitter: @petClub</p>
                     </div>
                 </div>
         </ul>
@@ -82,12 +82,13 @@
             <h2 id="appt-header">Make an Appointment</h2>
             <div class="info-box">
                     <div class="input">
-                        <input name="name" type="text" required autocomplete="off" placeholder="Your Name" />
                         <label for="name"><span>Name</span></label>
-                        <input name="email" type="text" required autocomplete="off" placeholder="Your Email" />
+                        <input name="name" type="text" id="myName" required autocomplete="off" placeholder="Your Name" />
                         <label for="email"><span>Email</span></label>
-                        <input name="phone" type="type" required autocomplete="off" placeholder="Phone" />
+                        <input name="email" type="text" required autocomplete="off" placeholder="Your Email" />
                         <label for="phone"><span>Phone Number</span></label>
+                        <input name="phone" type="type" required autocomplete="off" placeholder="Phone" />
+                        
 
                         <input id="btn" type="submit" value="Submit">
                     </div>

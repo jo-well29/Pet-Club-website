@@ -1,10 +1,19 @@
+function newPicture () {
+    document.getElementById('header-logo').src='images/dog.png'
+}
+
+function oldPicture () {
+    document.getElementById('header-logo').src='images/dog-seating.png'
+}
 
 
+let namePrompt = document.getElementById('myName').value;
+// console.log(namePrompt)
 let btnPrompt = document.getElementById('btn')
-console.log(btnPrompt)
+// console.log(btnPrompt)
 
 btnPrompt.addEventListener('click', function () {
-    alert('Submitted!')
+    alert(`Thank you ${namePrompt} for sumbitting your information`)
 })
 
 let modal = document.getElementById("myModal");
