@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <title>Pet Club</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>border</header>
+    </div>
+
+
+    <div class="logo">
+        <h1 class="pet-club">Pet Club</h1>
+        <p>NY</p>
+        <img class="header-logo" src="images/logo.png" alt="pet club logo dog">
+    </div>
+
+
+    <div class="nav-bar">
+        <ul class="menu-items">
+            <li class="home"><a href="#home">Home</a></li>
+            <li class="about-link"><a href="#about">About</a></li>
+            <li class="services"><a href="#services">Services</a></li>
+            <li class="contact-link"><a href="#contact">Appointment</a></li>
+            <li class="myBtn">Contact</li>
+            <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p id="modal-contact">Email: email123@gmail <br/>Phone: (123)523-2345</p>
+                    </div>
+                </div>
+        </ul>
+    </div>
+
+
+    <div id="home"></div>
+    <div class="main">
+        <img class="main-pic" src="images/run-main.png" alt="Cover pic">
+        <div class="pt">Physical Therapy</div>
+    </div>
+
+    <div id="about"></div>
+    <div class="midsection">
+        <h1 class="pet-future">Pet Club is the future of Physical Therapy</h1>
+        <h2 class="rehab">Rehabilitating the body, with the help of a furry friend</h2>
+    </div>
+    
+    <div class="about">
+        <h1 id="about-text">We strive to improve the standard of your health and happiness with your pet!</h1>
+        <div class="iframe-vid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d0nfzeLXuyY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="services"></div>
+    <div class="image-back">
+        <div class="text-box1"> 
+            <h2 id="services-pt">Physical Therapy Treatment</h2>
+            <img class="image-about" src="images/pt-photo.png" alt=''>
+        </div>
+        <div class="text-box2">
+            <h2 id="services-yoga">Yoga sessions</h2>
+            <img class="image-about" src="images/yogagirl.png" alt=''>
+        </div>
+    </div>
+
+
+    <div class="contact">
+        background
+        <div class="appt">
+            <a href="#home">Back to Home</a>
+            <h2 id="appt-header">Make an Appointment</h2>
+            <div class="info-box">
+                    <div class="input">
+                        <input name="name" type="text" required autocomplete="off" placeholder="Your Name" />
+                        <label for="name"><span>Name</span></label>
+                        <input name="email" type="text" required autocomplete="off" placeholder="Your Email" />
+                        <label for="email"><span>Email</span></label>
+                        <input name="phone" type="type" required autocomplete="off" placeholder="Phone" />
+                        <label for="phone"><span>Phone Number</span></label>
+
+                        <input id="btn" type="submit" value="Submit">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div id="contact"></div>
+    <footer id="footer">
+        <h2 class="cont-text">Contact Us!</h2>
+        <div class="cont-box1">
+            <img class="icon" src="images/twitter.png" alt="">
+            <img class="icon" src="images/telephone.png" alt="">
+            <img class="icon" src="images/envelope.png" alt="">
+        </div>
+
+    </footer>
+
+<script src=script.js></script>
+</body>
+</html>
