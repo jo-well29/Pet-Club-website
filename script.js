@@ -7,13 +7,9 @@ function oldPicture () {
 }
 
 
-let namePrompt = document.getElementById('myName').value;
-// console.log(namePrompt)
 let btnPrompt = document.getElementById('btn')
-// console.log(btnPrompt)
-
 btnPrompt.addEventListener('click', function () {
-    alert(`Thank you ${namePrompt} for sumbitting your information`)
+    alert(`Thank you for sumbitting your information`)
 })
 
 let modal = document.getElementById("myModal");

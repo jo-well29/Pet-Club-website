@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-
-    /* margin-right: -16px; */
 }
 
 .container {
@@ -23,7 +21,7 @@ h1 {
 
 #header-logo {
     height: 80px;
-    width: 80px;
+    max-width: 80px;
 }
 
 .secHeader-logo {
@@ -48,7 +46,11 @@ h1 {
 }
 
 .main-pic {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
 }
 
 a:visited {
@@ -90,7 +92,7 @@ a {
     font-size: 45px;
     font-family: Roboto, sans-serif;
     flex-wrap: wrap;
-    text-align: center;
+    left: 35%;
 }
 
 .modal {
@@ -307,7 +309,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: darkgrey;
-    height: 170px;
+    height: 150px;
 }
 
 .cont-text {
@@ -332,6 +334,11 @@ footer {
     * {
         margin: 0;
         padding: 0;
+    }
+
+    .main-pic {
+        height: auto;
+        max-width: auto;
     }
 
     .iframe-vid {
